@@ -104,6 +104,17 @@ Once the server is running, you can:
   ```bash
   curl -X DELETE http://127.0.0.1:5000/tasks/1
   ```
+## Web Interface for Efficient User Interaction
+
+In addition to the API functionality, this project includes a **responsive web interface** designed to provide a user-friendly experience. The interface allows users to manage tasks visually through an intuitive form and task list, making it more efficient than interacting solely through API calls.
+
+### Key Features of the Web Interface:
+- **Task Creation**: Users can easily add new tasks with a form that includes fields for the title, description, due date, and specific time.
+- **Task Viewing**: All tasks are displayed in a responsive list, with the due date and time clearly visible.
+- **Task Editing**: Users can edit existing tasks directly from the interface. The form is auto-filled with the task's current data for easy modifications.
+- **Task Deletion**: Tasks can be quickly deleted with a simple button click, ensuring that outdated or unnecessary tasks are removed without hassle.
+- **Responsive Design**: The interface is built using **Bootstrap**, ensuring that it works well on both desktop and mobile devices.
+
 
 ## License
 
